@@ -1,0 +1,39 @@
+/* Загальні стилі */
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color: hsl(212, 45%, 89%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Карточка */
+.card {
+  background-color: white;
+  border-radius: 15px;
+  padding: 20px;
+  max-width: 300px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Картинка */
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Заголовок */
+.card h1 {
+  font-size: 20px;
+  color: hsl(218, 44%, 22%);
+  margin: 15px 0;
+}
+
+/* Текст */
+.card p {
+  font-size: 15px;
+  color: hsl(220, 15%, 55%);
+}
